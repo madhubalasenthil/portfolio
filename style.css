@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+.container .logo {
+    margin-top: 30px;
+    position: absolute;
+    left: 90px;
+    font-style: italic;
+    color: #32a899;
+}
+.container .logo span {
+    color: black;
+    border-bottom: 3px solid #32a899;
+}
+.container header .navbar ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 90px;
+    justify-content: right;
+    top: 40px;
+}
+.container header .navbar ul li {
+    margin-left: 50px;
+    font-size: 2.5ch;
+    color: white;
+
+}
+.container header .navbar ul li:hover {
+    cursor: pointer;
+    color: #32a899;
+}
+.container .content {
+    padding: 190px;
+    margin-left: 250px;
+    font-size: 4ch;
+    color: black;
+}
+.container .content p {
+    color: white;
+}
+.page .box {
+    width: 100%;
+    height: 850px;
+    top: 0;
+    background-color: #32a899;
+}
+.page .box .resume {
+    width: 60%;
+    height: 740px;
+    background-color: whitesmoke;
+    margin-left: 260px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 3px solid white;
+    box-shadow: 4px 5px 4px 5px white;
+    display: flex;
+    
+}
+.page .box .resume .left {
+   
+    padding:  50px 40px;
+    font-size: 2.3ch;
+    
+}
+.page .box .resume .left span {
+    border-bottom: 3px solid #32a899;
+   
+}
+.page .box .resume .right span {
+    border-bottom: 3px solid #32a899;
+
+}
+.page .box .resume .right {
+    padding: 70px 40px ;
+    font-size: 2.3ch;
+}
+
+.page .box .resume .left .image img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border: 4px solid #32a899 ;
+}
+.page .box .resume .left .details {
+    padding: 20px;
+}
+.page .head {
+    text-align: center;
+}
+.page .head span {
+     border-bottom: 3px solid brown;
+}
+.page .line1 {
+    width: 100%;
+    height: 600px;
+    background: url(https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 70px;
+    
+}
+.page .line1:hover {
+    background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.page .line1 .box1 {
+    margin-right: 85px;
+    width: 500px;
+    height: 450px;
+    border: 3px solid white;
+    padding: 60px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: 4px 5px 4px 5px brown;
+
+
+}
+.page .line1 .box2 {
+    margin-right: 90px;
+    width: 500px;
+    height: 450px;
+    border: 3px solid white;
+    padding: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: 4px 5px 4px 5px brown;
+
+}
+.page .line1 .box3 {
+    margin-right: 50px;
+    width: 500px;
+    height: 450px;
+    border: 3px solid white;
+    padding: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: 4px 5px 4px 5px brown;
+}
+.page .line1 .box1 i{
+    margin-left: 45px;
+    border: 3px solid black;
+    width: 70px;
+    height: 70px;
+    font-size: 3ch;
+    border-radius: 35px;
+    padding: 19px;
+    color: brown;
+   
+}
+.page .line1 .box2 i{
+    margin-left: 45px;
+    border: 3px solid black;
+    width: 70px;
+    height: 70px;
+    font-size: 3ch;
+    border-radius: 35px;
+    padding: 22px;
+    color: brown;
+
+}
+.page .line1 .box3 i{
+    margin-left: 45px;
+    border: 3px solid black;
+    width: 70px;
+    height: 70px;
+    font-size: 3ch;
+    border-radius: 35px;
+    padding: 17px;
+    color: brown;
+}
+.page .line1 .box2 span {
+    margin-left: 21px;
+    color: brown;
+}
+.page .line1 .box3 span {
+    margin-left: 40px;
+    color: brown;
+}
+.page .line1 .box1 h4{
+    margin-left: 30px;
+    color: brown;
+}
+.page .line1 .box2 h4 {
+    margin-left: 30px;
+    color: brown;
+}
+.page .line1 .box3 h4 {
+    margin-left: 20px;
+    color: brown;
+}
+.page .line1 .box1:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.page .line1 .box2:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.page .line1 .box3:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.page .line2 {
+    width: 100%;
+    height: 750px;
+    background-color:  #32a899 ;
+}
+.page .line2 .line3 {
+    width: 60%;
+    height: 620px;
+    background-color: whitesmoke;
+    margin-left: 280px;
+    display: flex;
+    padding: 90px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 4px 5px 4px 5px white;
+}
+.page .line2 .line3 .box5 {
+    margin-left: 100px;
+}
+.page .line2 .line3 .box5 .icon i {
+    border: 3px solid #32a899 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 14px;
+    font-size: large;
+}
+.page .line2 .line3 .box4 button {
+    background-color: #32a899 ;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+}
+.page .line2 .line3 .box4 span {
+    border-bottom: 3px solid  #32a899 ;
+}
+.page .line2 .line3 .box5 span {
+    border-bottom: 3px solid  #32a899 ;
+}
+.page .line2 .line3 .box4 h3 {
+    font-size: 3.5ch;
+}
+.page .line2 .line3 .box5 h3 {
+    font-size: 3.5ch;
+}
+.page .line2 .line3 .box5 i {
+    color: #32a899 ;
+}
